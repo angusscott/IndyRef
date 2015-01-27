@@ -1,0 +1,182 @@
+
+% to choose your degree
+% please un-comment just one of the following
+\documentclass[bsc,frontabs,singlespacing,parskip]{infthesis}     % for BSc, BEng etc.
+%Readd twoside to make it stick to a side 
+
+
+% \documentclass[minf,frontabs,twoside,singlespacing,parskip]{infthesis}  % for MInf
+\usepackage{todonotes}
+\usepackage{cite}
+\begin{document}
+
+\title{Inferring Political Opinion From Social Media Data }
+
+\author{Angus Scott}
+
+% to choose your course
+% please un-comment just one of the following
+\course{Artificial Intelligence and Computer Science}
+%\course{Artificial Intelligence and Software Engineering}
+%\course{Artificial Intelligence and Mathematics}
+%\course{Artificial Intelligence and Psychology }   
+%\course{Artificial Intelligence with Psychology }   
+%\course{Linguistics and Artificial Intelligence}    
+%\course{Computer Science}
+%\course{Software Engineering}
+%\course{Computer Science and Electronics}    
+%\course{Electronics and Software Engineering}    
+%\course{Computer Science and Management Science}    
+%\course{Computer Science and Mathematics}
+%\course{Computer Science and Physics}  
+%\course{Computer Science and Statistics}    
+
+% to choose your report type
+% please un-comment just one of the following
+%\project{Undergraduate Dissertation} % CS&E, E&SE, AI&L
+%\project{Undergraduate Thesis} % AI%Psy
+\project{4th Year Project Report}
+
+\date{\today}
+
+\abstract{
+This is an example of {\tt infthesis} style.
+The file {\tt skeleton.tex} generates this document and can be 
+used to get a ``skeleton'' for your thesis.
+The abstract should summarise your report and fit in the space on the 
+first page.
+%
+You may, of course, use any other software to write your report,
+as long as you follow the same style. That means: producing a title
+page as given here, and including a table of contents and bibliography.
+}
+
+\maketitle
+
+\section*{Acknowledgements}
+Insert Acknowledgements here.
+\tableofcontents
+
+%\pagenumbering{arabic}
+
+
+\chapter{Introduction}
+\todo{introduce what latent attributes are}
+
+\todo{Include detail on why IndyRef is different from american and german elections}
+
+\chapter{Interim Report Only}
+Included todo notes for sections as I have ideas.
+
+Covered sections:
+Completed sections on introduction to Twitter Platform, and Dataset. 
+Plan to work on Related Work section: Need to outline more detail, and plan to include some heavy detail on Topic Modelling, as I'll be covering these in detail in other courses. 
+
+Plan to build models over the next couple of weeks, current schedule:
+By week 4 Finish annotation and build SVM and NB models for greater set of features than hashtags. Plan to use hashtags model as baseline. 
+week 5/6 Get cross annotator scores, and get Topic Models done
+
+
+
+
+\chapter{Related Work}
+
+The inference of latent attributes from different sources of media has been well considered both in the context of traditional media and new media.\todo{include links to papers that have perofrmed tasks in different media} 
+
+A natural extension to this task has been to apply similar methods to the microblogging service Twitter. Previous work includes detection of \textit{gender}, \textit{ethinicity}, \textit{brand loyalty}, \textit{regional origin} and \textit{age}.\cite{yahoopaper}\cite{rao2010}
+
+The detection of \textit{Political Affiliation} has also been considered. Most of the research in this area has been focused on one of two political systems. First is the American system, with the 2010 Congressional Midterms\cite{Conover2010predicting}  \cite{politicalpolar}\cite{yahoopaper} or the 2012 Presidential Elections \cite{quantpol}. Second is the German system, with the 2009 federal election to the national parliament\cite{predelections}\cite{dividedtheytweet}. 
+
+Approaches to the task of inference of latent attributes from twitter can be broadly split into two categories:
+\begin{enumerate}
+\item{Use of the networked structure of the data}
+\item{Analysis of user communication streams}
+\end{enumerate}
+
+\section{Network Structure}
+
+It has long been known that individuals form information networks corresponding to their own political preferences \cite{socialflow}, and this has continued into online social networks \cite{birdsofafeather}. This demonstrates that people who participate in particular networks, are likely to share similar political values or opinions, which could be used to infer someones political beliefs.
+
+There are four main types of networks that have previously been exploited to infer political persuasion:
+\begin{itemize}
+\item{\textit{Follower} - }
+\item{\textit{Mention} - }
+\item{\textit{Retweet} - }
+\item{\textit{Hyperlink} - }
+\end{itemize}
+
+\section{User Communication}
+
+Sentiment Analysis 
+Topic Modelling
+Support Vector Machines
+Decision Trees
+
+
+\chapter{Data and Methodolgy}
+\section{Scotland Independence Referendum Background}
+\label{sec:indybackground}
+\section{The Twitter Platform}
+\label{sec:twitterplatform}
+Twitter is a popular microblogging and social network site that allows users to send and read short 140 character messages commonly known as \textit{tweets}. Tweets as used in this report include the 140 character message, along with the associated metadata. This includes features such as: creation dates, user follower counts, coordinates and language. 
+
+As well as tweeting\footnote{Tweeting - The act of broadcasting a tweet} to an audience of \textit{followers}, Twitter users can interact publicly through two main approaches: \textit{retweets} and \textit{mentions}. Retweets often indicate agreement\cite{retweetagreement}, allowing users to rebroadcast content from other users, having the effect of spreading tweets to a larger audience\cite{largeraudiance}. Alternatively, mentions work by allowing someone to refer to a particular Twitter user by including their \texttt{@username} in a tweet, creating a public dialogue between the referrer and referee.
+
+\textit{Hashtags} are another important feature of Twitter, allowing users to tag tweets according to topic and their intended audience. For example \texttt{\#IndyRef} was often used to reference the topic of the Independence Referendum, or \texttt{\#bettertogether} which generally indicated that someone was No Voter or was addressing No Voters.
+
+Twitter has several benefits over other social networking sites \cite{benefitsoftwitter}\cite{quantpol} including:
+\begin{enumerate}
+\item{Twitter users retweet notable events and participate in the spread of realtime news.}
+\item{The 140 character constraint forces tweets to be concise and to the point.}
+\item{Users are highly reactionary and discussed events tend to have happened in the recent past.}
+\item{Tweets are media rich, and include content like video, image and hyperlinks along with text.} 
+\end{enumerate}
+
+\section{Dataset}
+
+The dataset was collected following the referendum, and is composed of X tweets from Y users, spanning from the 1st February 2014, to 17th September 2014, \todo{Add number of users here} the day prior to the Independence Referendum. The corpus also includes set of user classifications obtained through annotation of  users tweets from the 18th of September.
+
+The first steps in building the corpus, was to obtain tweets from the 18th of September 2014. This first set of tweets were obtained from a Twitter Mining system developed by Sasa Petrovic and Miles Osborne as part of their efforts to create the Edinburgh Twitter Corpus. From this I  was given a collection of tweets that matched a set of hashtags commonly used by users involved in the Yes and No campaigns. 
+
+Hashtags, and their associated campaign are given in Table \ref{tab:hashtagtable}, which were obtained using the hashtagify.me tool. It is worth noting that this is a set of non-event specific hashtags. Whilst hashtags such as \texttt{\#PatronisingBTlady}\cite{patronisingbtlady} are politically divisive, they have been excluded as they have a short lifespan as discussed in Section \ref{sec:twitterplatform}, and are therefore unlikely to be used on the final day of the referendum. 
+
+\begin{table}
+\begin{center}
+    \begin{tabular}{ c p{7cm} }
+    \hline
+    Topic Indicators: & \tt{\#indyref, \#scotland, \#scotdecides, \#scotlanddecides, \#independence} \\ \hline	
+     Yes Campaign: & \tt{\#voteyes, \#yesscotland, \#yesscot, \#youyesyet}\\ \hline
+     No Campaign: & \tt{\#voteno, \#nothanks, \#bettertogether, \#letsstaytogether} \\ \hline
+    Political Parties/Politicians: & \texttt{\#snp, \#labour, \#conservative, \#tory, \#libdem, \#salmond, \#alexsalmond,\#davidcameron, \#gordonbrown, \#alistairdarling}\\
+	\hline
+   \end{tabular}
+\caption{Set of hashtags related to the campaign}
+  \label{tab:hashtagtable}
+\end{center}
+\end{table}
+\todo{Include graph showing strength of hashtag, and how many tweets it appears in }
+These tweets are then used as evidence for the annotators to classify a user as Y (Voted Yes in the referendum), N (Voted No in the referendum) or U (Unknown or Undeterminable). We make the assumption that tweets on the final day are the most emblematic of how a user voted, as the opportunity to flip their opinion is minimised andTwitter activity surrounding the event was at it's peak. This is done as there are both technical and ethical issues about obtaining classifications more directly.
+
+After providing a class for each user, we then collect all their publicly available tweets, available from 1st February to 17th September, and their associated meta data using the Twitter API \footnote{Due to a limitation of the Twitter API, you can only collect from the last 3200 published tweets.}. 
+
+\section{General approach to user profiling}
+\todo{Detail what can be measured in Twitter and how we could use it}
+\section{Models}
+\todo{Models I plan on implementing, may be moved to eval section}
+\subsection{Naive Bayes}
+\subsection{Topic Modelling}
+\subsection{SVM}
+\subsubsection{One class SVMs}
+\subsubsection{Alternative SVMs, standard?}
+\subsection{Gradient Boosted Decision Trees}
+\chapter{Evaluation}
+\chapter{Conclusions and Further Work}
+
+
+% use the following and \cite{} as above if you use BibTeX
+% otherwise generate bibtem entries
+\bibliography{bibliography}
+\bibliographystyle{plain}
+
+
+\end{document}

@@ -3,6 +3,7 @@ import datetime
 import os.path
 import time 
 import os
+import json
 
 consumer_key = 'bu1ycAmiJKaTTksHe9a4JDCOk'
 consumer_secret = 'socCx40HGIXc0XHSB21QGgC4KuxKzpKcsIfDihU0ZbglIjGClC'
@@ -50,7 +51,7 @@ def getAllTweets(user):
 					print tweet
 					date = tweet.created_at 
 					if date > datetime.datetime(2014, 2, 1, 0, 0, 0) and date < datetime.datetime(2014, 9, 18, 0, 0, 0):
-						outpt.write(str(tweet))
+						outpt.write(json.dumps(tweet._json) + '\n')
 
 		except tweepy.TweepError as e:
 			print e.message

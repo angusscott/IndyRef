@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: TSWLatexianTemp_001102.aux
+The style file: plain.bst
+Database file #1: bibliography.bib
+Warning--entry type for "yahoopaper" isn't style-file defined
+--line 59 of file bibliography.bib
+A bad cross reference---entry "quantpol"
+refers to entry "DBLP:conf/icwsm/2013", which doesn't exist
+A bad cross reference---entry "dividedtheytweet"
+refers to entry "conf/icwsm/2011", which doesn't exist
+Warning--I didn't find a database entry for "DBLP:conf/icwsm/2013"
+Warning--I didn't find a database entry for "conf/icwsm/2011"
+You've used 13 entries,
+            2118 wiz_defined-function locations,
+            571 strings with 6837 characters,
+and the built_in function-call counts, 4464 in all, are:
+= -- 407
+> -- 268
+< -- 2
++ -- 105
+- -- 91
+* -- 301
+:= -- 762
+add.period$ -- 40
+call.type$ -- 13
+change.case$ -- 83
+chr.to.int$ -- 0
+cite$ -- 13
+duplicate$ -- 166
+empty$ -- 339
+format.name$ -- 91
+if$ -- 926
+int.to.chr$ -- 0
+int.to.str$ -- 13
+missing$ -- 11
+newline$ -- 67
+num.names$ -- 28
+pop$ -- 105
+preamble$ -- 1
+purify$ -- 70
+quote$ -- 0
+skip$ -- 116
+stack$ -- 0
+substring$ -- 168
+swap$ -- 34
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 52
+warning$ -- 0
+while$ -- 36
+width$ -- 15
+write$ -- 139
+(There were 2 error messages)
