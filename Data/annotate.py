@@ -1,22 +1,34 @@
 import sys
+import os
 def readintweets(readdir, writedir):
-	#y is yes, n is no u is unknown/undetermined
 	filelength = file_len(writedir)
-
-	with open(readdir, 'r') as inpt, open(writedir, 'a') as outpt:
+	count = filelength + 1
+	#y is yes, n is no u is unknown/undetermined
+	with open(readdir, 'r') as inpt, open(writedir, 'a+') as outpt:
+		#filelength = sum(1 for line in outpt)
 		for number, line in enumerate(inpt):
-			if number <= filelength:
+			os.system('cls' if os.name == 'nt' else 'clear')
+			count += 1
+			
+			if number < filelength:
 				pass
 			else:
+				print 'Tweet Number: ' + str(count) + '\n'
 				username, tweet = line.split('\t')
 				print tweet
 				var = getinput()
 				outpt.write(username.strip() + '\t'+tweet.strip() +'\t'+ var.strip() + '\n')
 				outpt.flush()
+				
 
 def file_len(fname):
-    num_lines = sum(1 for line in open(fname))
-    return num_lines
+	try:
+		num_lines = sum(1 for line in open(fname, 'r'))
+	except IOError: 
+		f = open(fname, 'a+')
+		f.close()
+		num_lines = 0
+	return num_lines
 
 def getinput():
 	allowableInput = ['y','n','u']
@@ -30,4 +42,4 @@ def getinput():
 			return var
 
 if __name__ == '__main__':
-	readintweets('/Users/angusscott/University/4thyear/4th Year Project/Data/indyRef-tweets-18th-Sept-2014-unique.txt', '/Users/angusscott/University/4thyear/4th Year Project/Data/indyRef-tweets-18th-Sept-2014-classified.txt')
+	readintweets('indyRef-tweets-18th-Sept-2014-subset.txt', 'indyRef-tweets-18th-Sept-2014-class.txt')

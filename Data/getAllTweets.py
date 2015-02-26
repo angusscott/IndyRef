@@ -48,7 +48,6 @@ def getAllTweets(user):
 
 			with open('/Users/angusscott/University/4thyear/4th Year Project/Data/UsersTweets/'+ user + '.txt', 'a+') as outpt:	
 				for numb,tweet in enumerate(alltweets):
-					print tweet
 					date = tweet.created_at 
 					if date > datetime.datetime(2014, 2, 1, 0, 0, 0) and date < datetime.datetime(2014, 9, 18, 0, 0, 0):
 						outpt.write(json.dumps(tweet._json) + '\n')
@@ -67,6 +66,9 @@ def getAllTweets(user):
 				print "End : %s" % time.ctime()
 			else:
 				pass
+		except IndexError as e: 
+			print e.message
+			pass
 	return user
 
 # if __name__ == '__main__':
