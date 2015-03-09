@@ -38,7 +38,8 @@ def processClassifiedTweets(usernames, usertweetsdir, writedir):
 						status = json.loads(status)
 						tweet = status[u'text'].strip().lower()
 						tweet = tweet.replace('\n', ' ')
-						tweet = re.sub(r'#[a-zA-Z0-9]*|[^\x20-\x7e]|http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+',' ', tweet)
+						#tweet = re.sub(r'#[a-zA-Z0-9]*|[^\x20-\x7e]|http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+',' ', tweet)
+						tweet = re.sub(r'[^\x20-\x7e]|http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+',' ', tweet)
 						for c in punct:
 							tweet = tweet.replace(c, '')
 						out = ' '.join([word for word in tweet.split() if word not in stop])
@@ -50,5 +51,5 @@ def processClassifiedTweets(usernames, usertweetsdir, writedir):
 
 if __name__ == '__main__':
 	#processClassifiedTweetsHashtags('/Users/angusscott/University/4thyear/4th Year Project/Data/indyRef-tweets-18th-Sept-2014-classified.txt', '/Users/angusscott/University/4thyear/4th Year Project/Data/UsersTweets/', '/Users/angusscott/University/4thyear/4th Year Project/Data/UsersHashtags/')
-	processClassifiedTweets('/Users/angusscott/University/4thyear/4th Year Project/Data/indyRef-tweets-18th-Sept-2014-classified.txt', '/Users/angusscott/University/4thyear/4th Year Project/Data/UsersTweets/', '/Users/angusscott/University/4thyear/4th Year Project/Data/UsersTweetsClass/')
+	processClassifiedTweets('/Users/angusscott/University/4thyear/4th Year Project/Data/indyRef-tweets-18th-Sept-2014-classified.txt', '/Users/angusscott/University/4thyear/4th Year Project/Data/UsersTweets/', '/Users/angusscott/University/4thyear/4th Year Project/Data/UsersStatusClass/')
 
