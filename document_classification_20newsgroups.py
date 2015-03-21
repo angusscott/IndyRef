@@ -31,6 +31,10 @@ import sys
 from time import time
 import matplotlib.pyplot as plt
 
+from sklearn.metrics import confusion_matrix
+from sklearn import cross_validation
+from sklearn.cross_validation import cross_val_score
+from sklearn.datasets import load_files
 from sklearn.datasets import fetch_20newsgroups
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import HashingVectorizer
@@ -47,7 +51,7 @@ from sklearn.utils.extmath import density
 from sklearn import metrics
 
 
-# Display progress logs on stdout
+# # Display progress logs on stdout
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s %(levelname)s %(message)s')
 
@@ -93,62 +97,47 @@ print()
 
 ###############################################################################
 # Load some categories from the training set
-if opts.all_categories:
-    categories = None
-else:
-    categories = [
-        'alt.atheism',
-        'talk.religion.misc',
-        'comp.graphics',
-        'sci.space',
-    ]
 
-if opts.filtered:
-    remove = ('headers', 'footers', 'quotes')
-else:
-    remove = ()
+categories = ['y', 'n', 'u']
 
-print("Loading 20 newsgroups dataset for categories:")
-print(categories if categories else "all")
 
-data_train = fetch_20newsgroups(subset='train', categories=categories,
-                                shuffle=True, random_state=42,
-                                remove=remove)
 
-data_test = fetch_20newsgroups(subset='test', categories=categories,
-                               shuffle=True, random_state=42,
-                               remove=remove)
-print('data loaded')
+#print("Loading 20 newsgroups dataset for categories:")
+datadirectory = '/Users/angusscott/University/4thyear/4th Year Project/Data/UsersStatusClass/'
+data = load_files(datadirectory,categories=categories, shuffle=True, random_state=42, encoding='latin-1') 
+X_train, X_test, y_train, y_test = cross_validation.train_test_split(data.data, data.target, test_size = 0.4, random_state=0)
+data_train = np.c_[X_train, y_train]
+data_test = np.c_[X_test, y_test]
 
-categories = data_train.target_names    # for case categories == None
 
+#categories = data_train.target_names    # for case categories == None
 
 def size_mb(docs):
     return sum(len(s.encode('utf-8')) for s in docs) / 1e6
 
-data_train_size_mb = size_mb(data_train.data)
-data_test_size_mb = size_mb(data_test.data)
+data_train_size_mb = size_mb(X_train)
+data_test_size_mb = size_mb(X_test)
 
 print("%d documents - %0.3fMB (training set)" % (
-    len(data_train.data), data_train_size_mb))
+    len(X_train), data_train_size_mb))
 print("%d documents - %0.3fMB (test set)" % (
-    len(data_test.data), data_test_size_mb))
+    len(X_test), data_test_size_mb))
 print("%d categories" % len(categories))
 print()
 
 # split a training set and a test set
-y_train, y_test = data_train.target, data_test.target
+#y_train, y_test = data_train.target, data_test.target
 
 print("Extracting features from the training dataset using a sparse vectorizer")
 t0 = time()
 if opts.use_hashing:
     vectorizer = HashingVectorizer(stop_words='english', non_negative=True,
                                    n_features=opts.n_features)
-    X_train = vectorizer.transform(data_train.data)
+    X_train = vectorizer.transform(X_train)
 else:
     vectorizer = TfidfVectorizer(sublinear_tf=True, max_df=0.5,
                                  stop_words='english')
-    X_train = vectorizer.fit_transform(data_train.data)
+    X_train = vectorizer.fit_transform(X_train)
 duration = time() - t0
 print("done in %fs at %0.3fMB/s" % (duration, data_train_size_mb / duration))
 print("n_samples: %d, n_features: %d" % X_train.shape)
@@ -156,7 +145,7 @@ print()
 
 print("Extracting features from the test dataset using the same vectorizer")
 t0 = time()
-X_test = vectorizer.transform(data_test.data)
+X_test = vectorizer.transform(X_test)
 duration = time() - t0
 print("done in %fs at %0.3fMB/s" % (duration, data_test_size_mb / duration))
 print("n_samples: %d, n_features: %d" % X_test.shape)
@@ -203,7 +192,7 @@ def benchmark(clf):
 
     score = metrics.f1_score(y_test, pred)
     print("f1-score:   %0.3f" % score)
-
+    confusion_matrix(y_test, pred)
     if hasattr(clf, 'coef_'):
         print("dimensionality: %d" % clf.coef_.shape[1])
         print("density: %f" % density(clf.coef_))
@@ -268,6 +257,12 @@ print("Naive Bayes")
 results.append(benchmark(MultinomialNB(alpha=.01)))
 results.append(benchmark(BernoulliNB(alpha=.01)))
 
+# Train sparse SVM classifiers
+print('=' * 80)
+print("Naive Bayes")
+results.append(benchmark(MultinomialNB(alpha=.01)))
+results.append(benchmark(BernoulliNB(alpha=.01)))
+
 
 class L1LinearSVC(LinearSVC):
 
@@ -304,7 +299,7 @@ plt.barh(indices, score, .2, label="score", color='r')
 plt.barh(indices + .3, training_time, .2, label="training time", color='g')
 plt.barh(indices + .6, test_time, .2, label="test time", color='b')
 plt.yticks(())
-plt.legend(loc='best')
+plt.legend(bbox_to_anchor=(0.1, 0.94, 0.8, .102),loc=3, ncol=3, mode="expand", borderaxespad=0.)
 plt.subplots_adjust(left=.25)
 plt.subplots_adjust(top=.95)
 plt.subplots_adjust(bottom=.05)

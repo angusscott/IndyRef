@@ -19,6 +19,7 @@ def importData(datadirectory):
 
 	data = load_files(datadirectory,categories=categories, shuffle=True, random_state=42, encoding='latin-1') 
 	X_train, X_test, y_train, y_test = cross_validation.train_test_split(data.data, data.target, test_size = 0.4, random_state=0)
+	print X_train 
 	# count_vect = CountVectorizer()
 	# X_train_vec = count_vect.fit_transform(X_train)
 	# X_test_vec = count_vect.fit_transform(X_test)
@@ -43,17 +44,7 @@ def importData(datadirectory):
 	# dt_clf = GradientBoostingClassifier(n_estimators=100, learning_rate=1.0, max_depth=1, random_state=0).fit(X_train, y_train)
 	# print dt_clf.score(X_test, y_test) 
 
-# class DenseTransformer(TransformerMixin):
 
-#     def transform(self, X, y=None, **fit_params):
-#         return X.todense()
-
-#     def fit_transform(self, X, y=None, **fit_params):
-#         self.fit(X, y, **fit_params)
-#         return self.transform(X)
-
-#     def fit(self, X, y=None, **fit_params):
-#         return self
 
 
 if __name__ == '__main__':

@@ -1,0 +1,83 @@
+\begin{thebibliography}{10}
+
+\bibitem{patronisingbtlady}
+Libby Brooks.
+\newblock Scottish independence: no campaign's new ad convinces some to vote
+  yes, August 2014.
+\newblock [Online; posted 27-August-2014].
+
+\bibitem{Conover2010predicting}
+M~Conover, B~Gon\c{c}alves, J~Ratkiewicz, A~Flammini, and F~Menczer.
+\newblock Predicting the political alignment of twitter users.
+\newblock In {\em Proceedings of 3rd IEEE Conference on Social Computing
+  (SocialCom)}, 2011.
+
+\bibitem{politicalpolar}
+Michael Conover, Jacob Ratkiewicz, Matthew Francisco, Bruno Gon\c{c}alves,
+  Alessandro Flammini, and Filippo Menczer.
+\newblock Political polarization on twitter.
+\newblock In {\em Proc. 5th International AAAI Conference on Weblogs and Social
+  Media (ICWSM)}, 2011.
+
+\bibitem{largeraudiance}
+Scott~Golder Danah~Boyd and Gilad Lotan.
+\newblock Tweet, tweet, retweet: Conversational aspects of retweeting on
+  twitter.
+\newblock {\em HICSS-43, IEEE:Kauai, HI, January 6}, 2010.
+
+\bibitem{dividedtheytweet}
+Albert Feller, Matthias Kuhnert, Timm~Oliver Sprenger, and Isabell~M. Welpe.
+\newblock Divided they tweet: The network structure of political microbloggers
+  and discussion topics.
+\newblock In Lada~A. Adamic, Ricardo~A. Baeza-Yates, and Scott Counts, editors,
+  {\em ICWSM}. The AAAI Press, 2011.
+
+\bibitem{birdsofafeather}
+Itai Himelboim, Stephen McCreery, and Marc~A. Smith.
+\newblock Birds of a feather tweet together: Integrating network and content
+  analyses to examine cross-ideology exposure on twitter.
+\newblock {\em J. Computer-Mediated Communication}, 18(2):40--60, 2013.
+
+\bibitem{socialflow}
+Robert Huckfeldt and John Sprague.
+\newblock Networks in context: The social flow of political information.
+\newblock {\em American Political Science Review}, 81:1197--1216, 12 1987.
+
+\bibitem{retweetagreement}
+Panagiotis~Takis Metaxas, Eni Mustafaraj, Kily Wong, Laura Zeng, Megan O'Keefe,
+  and Samantha Finn.
+\newblock Do retweets indicate interest, trust, agreement? (extended abstract).
+\newblock {\em CoRR}, abs/1411.3555, 2014.
+
+\bibitem{yahoopaper}
+Marco Pennacchiotti and Ana-Maria Popescu.
+\newblock A machine learning approach to twitter user classification, 2011.
+
+\bibitem{rao2010}
+Delip Rao, David Yarowsky, Abhishek Shreevats, and Manaswi Gupta.
+\newblock Classifying latent user attributes in twitter.
+\newblock In {\em Proceedings of the 2Nd International Workshop on Search and
+  Mining User-generated Contents}, SMUC '10, pages 37--44, New York, NY, USA,
+  2010. ACM.
+
+\bibitem{benefitsoftwitter}
+Claire~Warwick Shirley Ann~Williams, Melissa~Terras.
+\newblock “what people study when they study twitter: Classifying twitter
+  related academic papers.
+\newblock {\em Journal of Documentation, 69}, 2013.
+
+\bibitem{predelections}
+A.~Tumasjan, T.O. Sprenger, P.G. Sandner, and I.M. Welpe.
+\newblock Predicting elections with twitter: What 140 characters reveal about
+  political sentiment.
+\newblock In {\em Proceedings of the Fourth International AAAI Conference on
+  Weblogs and Social Media}, pages 178--185, 2010.
+
+\bibitem{quantpol}
+Felix Ming~Fai Wong, Chee~Wei Tan, Soumya Sen, and Mung Chiang.
+\newblock Quantifying political leaning from tweets and retweets.
+\newblock In {\em Proceedings of the Seventh International Conference on
+  Weblogs and Social Media, {ICWSM} 2013, Cambridge, Massachusetts, USA, July
+  8-11, 2013.}, 2013.
+
+\end{thebibliography}
