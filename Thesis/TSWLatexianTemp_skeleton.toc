@@ -1,20 +1,23 @@
 \contentsline {chapter}{\numberline {1}Introduction}{3}
-\contentsline {chapter}{\numberline {2}Interim Report Only}{4}
-\contentsline {chapter}{\numberline {3}Related Work}{5}
-\contentsline {section}{\numberline {3.1}Network Structure}{5}
-\contentsline {section}{\numberline {3.2}User Communication}{6}
-\contentsline {chapter}{\numberline {4}Data and Methodolgy}{7}
-\contentsline {section}{\numberline {4.1}Scotland Independence Referendum Background}{7}
-\contentsline {section}{\numberline {4.2}The Twitter Platform}{7}
-\contentsline {section}{\numberline {4.3}Dataset}{8}
-\contentsline {section}{\numberline {4.4}General approach to user profiling}{9}
-\contentsline {section}{\numberline {4.5}Models}{9}
-\contentsline {subsection}{\numberline {4.5.1}Naive Bayes}{9}
-\contentsline {subsection}{\numberline {4.5.2}Topic Modelling}{9}
-\contentsline {subsection}{\numberline {4.5.3}SVM}{9}
-\contentsline {subsubsection}{\numberline {4.5.3.1}One class SVMs}{9}
-\contentsline {subsubsection}{\numberline {4.5.3.2}Alternative SVMs, standard?}{9}
-\contentsline {subsection}{\numberline {4.5.4}Gradient Boosted Decision Trees}{9}
-\contentsline {chapter}{\numberline {5}Evaluation}{10}
-\contentsline {chapter}{\numberline {6}Conclusions and Further Work}{11}
-\contentsline {chapter}{Bibliography}{12}
+\contentsline {chapter}{\numberline {2}Related Work}{4}
+\contentsline {section}{\numberline {2.1}Network Structure}{4}
+\contentsline {section}{\numberline {2.2}User Communication}{5}
+\contentsline {chapter}{\numberline {3}Related Work}{6}
+\contentsline {section}{\numberline {3.1}Profile features and Tweeting behaviour: ``Who you are and how you tweet"}{6}
+\contentsline {section}{\numberline {3.2}Lexical content: ``What you tweet"}{6}
+\contentsline {section}{\numberline {3.3}Social network: ``Who you tweet"}{8}
+\contentsline {chapter}{\numberline {4}Data and Methodolgy}{10}
+\contentsline {section}{\numberline {4.1}Scotland Independence Referendum Background}{10}
+\contentsline {section}{\numberline {4.2}The Twitter Platform}{10}
+\contentsline {section}{\numberline {4.3}Dataset}{11}
+\contentsline {section}{\numberline {4.4}General approach to user profiling}{12}
+\contentsline {section}{\numberline {4.5}Models}{12}
+\contentsline {subsection}{\numberline {4.5.1}Naive Bayes}{12}
+\contentsline {subsection}{\numberline {4.5.2}Topic Modelling}{12}
+\contentsline {subsection}{\numberline {4.5.3}SVM}{12}
+\contentsline {subsubsection}{\numberline {4.5.3.1}One class SVMs}{12}
+\contentsline {subsubsection}{\numberline {4.5.3.2}Alternative SVMs, standard?}{12}
+\contentsline {subsection}{\numberline {4.5.4}Gradient Boosted Decision Trees}{12}
+\contentsline {chapter}{\numberline {5}Evaluation}{13}
+\contentsline {chapter}{\numberline {6}Conclusions and Further Work}{14}
+\contentsline {chapter}{Bibliography}{15}

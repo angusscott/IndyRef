@@ -1,0 +1,28 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Project Outline}{}% 2
+\BOOKMARK [0][-]{chapter.3}{Related Work}{}% 3
+\BOOKMARK [1][-]{section.3.1}{Motivation}{chapter.3}% 4
+\BOOKMARK [1][-]{section.3.2}{The Twitter Platform}{chapter.3}% 5
+\BOOKMARK [1][-]{section.3.3}{Profile Features and Tweeting Behaviour: ``Who you are and how you tweet"}{chapter.3}% 6
+\BOOKMARK [1][-]{section.3.4}{Linguistic content: ``What you tweet"}{chapter.3}% 7
+\BOOKMARK [1][-]{section.3.5}{Social network: ``Who you tweet"}{chapter.3}% 8
+\BOOKMARK [1][-]{section.3.6}{Conclusion}{chapter.3}% 9
+\BOOKMARK [0][-]{chapter.4}{Scottish Indepdendence Referendum Corpus \(SIRC\)}{}% 10
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 11
+\BOOKMARK [1][-]{section.4.2}{Scotland Independence Referendum Background}{chapter.4}% 12
+\BOOKMARK [1][-]{section.4.3}{Existing Corpora}{chapter.4}% 13
+\BOOKMARK [1][-]{section.4.4}{Corpus Construction}{chapter.4}% 14
+\BOOKMARK [1][-]{section.4.5}{Corpus Annotation and Evaluation}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.6}{Corpus Statistics}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.7}{Dataset}{chapter.4}% 17
+\BOOKMARK [0][-]{chapter.5}{Methodology}{}% 18
+\BOOKMARK [1][-]{section.5.1}{Dataset}{chapter.5}% 19
+\BOOKMARK [1][-]{section.5.2}{General approach to user profiling}{chapter.5}% 20
+\BOOKMARK [1][-]{section.5.3}{Models}{chapter.5}% 21
+\BOOKMARK [2][-]{subsection.5.3.1}{Naive Bayes}{section.5.3}% 22
+\BOOKMARK [2][-]{subsection.5.3.2}{Topic Modelling}{section.5.3}% 23
+\BOOKMARK [2][-]{subsection.5.3.3}{SVM}{section.5.3}% 24
+\BOOKMARK [2][-]{subsection.5.3.4}{Gradient Boosted Decision Trees}{section.5.3}% 25
+\BOOKMARK [0][-]{chapter.6}{Evaluation}{}% 26
+\BOOKMARK [0][-]{chapter.7}{Conclusions and Further Work}{}% 27
+\BOOKMARK [0][-]{chapter*.11}{Bibliography}{}% 28

@@ -39,16 +39,10 @@ Albert Feller, Matthias Kuhnert, Timm~Oliver Sprenger, and Isabell~M. Welpe.
 \newblock In Lada~A. Adamic, Ricardo~A. Baeza-Yates, and Scott Counts, editors,
   {\em ICWSM}. The AAAI Press, 2011.
 
-\bibitem{birdsofafeather}
-Itai Himelboim, Stephen McCreery, and Marc~A. Smith.
-\newblock Birds of a feather tweet together: Integrating network and content
-  analyses to examine cross-ideology exposure on twitter.
-\newblock {\em J. Computer-Mediated Communication}, 18(2):40--60, 2013.
-
-\bibitem{socialflow}
-Robert Huckfeldt and John Sprague.
-\newblock Networks in context: The social flow of political information.
-\newblock {\em American Political Science Review}, 81:1197--1216, 12 1987.
+\bibitem{snapnets}
+Jure Leskovec and Andrej Krevl.
+\newblock {SNAP Datasets}: {Stanford} large network dataset collection.
+\newblock \url{http://snap.stanford.edu/data}, June 2014.
 
 \bibitem{retweetagreement}
 Panagiotis~Takis Metaxas, Eni Mustafaraj, Kily Wong, Laura Zeng, Megan O'Keefe,
@@ -59,6 +53,11 @@ Panagiotis~Takis Metaxas, Eni Mustafaraj, Kily Wong, Laura Zeng, Megan O'Keefe,
 \bibitem{yahoopaper}
 Marco Pennacchiotti and Ana-Maria Popescu.
 \newblock A machine learning approach to twitter user classification, 2011.
+
+\bibitem{petrovic2010edinburgh}
+Sasa Petrovic, Miles Osborne, and Victor Lavrenko.
+\newblock The edinburgh twitter corpus.
+\newblock 2010.
 
 \bibitem{rao2010}
 Delip Rao, David Yarowsky, Abhishek Shreevats, and Manaswi Gupta.

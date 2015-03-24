@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: TSWLatexianTemp_skeleton.aux
+The top-level auxiliary file: TSWLatexianTemp_003028.aux
 The style file: plain.bst
 Database file #1: bibliography.bib
 Warning--entry type for "yahoopaper" isn't style-file defined
@@ -9,48 +9,48 @@ A bad cross reference---entry "quantpol"
 refers to entry "DBLP:conf/icwsm/2013", which doesn't exist
 A bad cross reference---entry "dividedtheytweet"
 refers to entry "conf/icwsm/2011", which doesn't exist
-Warning--I didn't find a database entry for "politicalpolar"
 Warning--I didn't find a database entry for "DBLP:conf/icwsm/2013"
 Warning--I didn't find a database entry for "conf/icwsm/2011"
+Warning--empty booktitle in petrovic2010edinburgh
 You've used 14 entries,
             2118 wiz_defined-function locations,
-            578 strings with 7104 characters,
-and the built_in function-call counts, 4923 in all, are:
-= -- 456
+            570 strings with 6933 characters,
+and the built_in function-call counts, 4782 in all, are:
+= -- 434
 > -- 286
 < -- 3
-+ -- 112
++ -- 113
 - -- 97
-* -- 329
-:= -- 830
+* -- 303
+:= -- 806
 add.period$ -- 44
 call.type$ -- 14
 change.case$ -- 89
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 188
-empty$ -- 377
+cite$ -- 15
+duplicate$ -- 186
+empty$ -- 372
 format.name$ -- 97
-if$ -- 1032
+if$ -- 1006
 int.to.chr$ -- 0
 int.to.str$ -- 14
-missing$ -- 12
+missing$ -- 11
 newline$ -- 72
 num.names$ -- 30
-pop$ -- 114
+pop$ -- 127
 preamble$ -- 1
 purify$ -- 75
 quote$ -- 0
 skip$ -- 131
 stack$ -- 0
-substring$ -- 197
+substring$ -- 152
 swap$ -- 42
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 56
-warning$ -- 0
-while$ -- 41
+warning$ -- 1
+while$ -- 38
 width$ -- 16
-write$ -- 151
+write$ -- 148
 (There were 2 error messages)

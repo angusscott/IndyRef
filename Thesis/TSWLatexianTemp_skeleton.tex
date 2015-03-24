@@ -65,17 +65,6 @@ Insert Acknowledgements here.
 
 \todo{Include detail on why IndyRef is different from american and german elections}
 
-\chapter{Interim Report Only}
-Included todo notes for sections as I have ideas.
-
-Covered sections:
-Completed sections on introduction to Twitter Platform, and Dataset. 
-Plan to work on Related Work section: Need to outline more detail, and plan to include some heavy detail on Topic Modelling, as I'll be covering these in detail in other courses. 
-
-Plan to build models over the next couple of weeks, current schedule:
-By week 4 Finish annotation and build SVM and NB models for greater set of features than hashtags. Plan to use hashtags model as baseline. 
-week 5/6 Get cross annotator scores, and get Topic Models done
-
 
 
 
@@ -114,6 +103,81 @@ Topic Modelling
 Support Vector Machines
 Decision Trees
 
+\chapter{Related Work}
+
+Broadly split into three approaches:
+
+\section{Profile features and Tweeting behaviour: ``Who you are and how you tweet"}
+
+\section{Lexical content: ``What you tweet"}
+\label{sec:lingcont}
+
+Tweets contain lexical information which directly conveys the thoughts and opinions of users. By analysing what the user says/discusses, we can observe similarities between users and from this, group users into different classes. It would be reasonable to assume that users of social media are likely to discuss topics that are of importance/interest to them, and people who share political ideologies/opinions would be likely to discuss similar topics. 
+
+Conover et al.(2010) \cite{Conover2010predicting} propose the use of linear support vector machines (SVMs) to classify 1,000 `highly connected' users into `left' and `right' political classes. The users were manually annotated into `left', `right' and `ambiguous' classes. The tweets were collected over the six weeks preceding the 2010 U.S Midterm Elections. The authors compute accuracy for SVMs built with:
+\begin{description}
+\item[Full-text] TF-IDF weighted unigrams of tweets (hashtags, mentions, URLs and stop words removed)
+\item[Hashtags] Bag of words representation of hashtags in tweets (removed all text that wasn't hashtags and hashtags only used by one user)
+\item[Latent Semantic Analysis of Hashtags (LSA)] Applied to the hashtag-user matrix to identify latent factors that correspond to political alignment. 
+\end{description}
+
+It was found that the SVM trained on the full-text corpus obtained an accuracy of 79.2\%, but when trained on hashtags the classifier obtained 90.8\%. The addition of LSA to hashtags with the first three dimensions had a minimal improvement on accuracy of 0.1\%, and the addition of subsequent features only decreased performance. 
+
+The paper also makes use of the social network, and is discussed in section \ref{sec:socnet} along with further discussion of what it means to be a `highly connected' user and why the results in this paper may be overly optimistic.
+
+Tumasjan et al. \cite{predelections} is one of the most highly cited of the papers discussed here, and establishes the use of sentiment analysis as a means of detecting political persuasion. The paper uses a corpus of 100,000 tweets referencing the German federal election, collected over the 5 weeks preceding the election. The authors use the LIWC text analysis software and focus on 12 dimensions they feel are relevant to political sentiment: Future orientation, past orientation, positive emotions, negative emotions, sadness, anxiety, anger, tentativeness, certainty, work, achievement, and money.
+
+The paper establishes that the tweets in their corpus were dominated by a small number of users, implying that a  small number of users control the majority of the opinion on Twitter. The authors also establish that candidates who are further from the centre politically have more exaggerated sentiment scores amongst the 12 dimensions mentioned above. The paper concludes by attempting to show that the number of tweets about particular parties reflect the election outcome, and that co-occurrences of two parties reflect real life coalition partners. 
+
+Despite the paper being highly cited, there are two primary criticisms of this paper. First is that tweets were translated from German to English using some machine translation system, and sentiment scores were then calculated from the English translations, even though the LIWC software has a German dictionary. This is likely to introduces a considerable amount of noise, particularly in tweets where slang and incorrect/non-standard grammar is used. Balamurali et al. \cite{balamurali2013lost} found that sentiment analysis performed on translated text performed poorly compared to native text, they attributed this to the failure of the translation system to capture cultural divergence between languages with respect to expressions of sentiment.
+
+The second criticism is the conclusion that number of tweets reasonably reflects the outcome of the election. The authors only compare against one election, and one data point is clearly not enough for any meaningful evaluation. In fact, in the Scottish Referendum corpus, constructed as part of this project, the number of `Yes' leaning tweets exceeds the number of `No' leaning tweets significantly, even though the No Campaign ended up being victorious. 
+
+Pennacchiotti and Popescu \cite{yahoopaper} make use of gradient boosted decision trees (GBDT), combining a collection of weak leaners to form a strong learner. The authors built a balanced corpus of 10,338 self identifying Democrat and Republican voters, with political leanings scrapped from various sources. 
+
+Their weak leaners are a combination of linguistic features and network features, which will be discussed in section \ref{sec:socnet}. The authors use the following linguistic features:
+
+\begin{description}
+\item[Prototypical Words] Collection of the 200 most class indicative words per class. Scored by measuring the ratio between the number of occurrences in a class and the number of occurrences in all classes. Similar to Full-Text above, but with less noise.
+\item[Prototypical Hashtags] Collection of the 100 most class indicative hashtags per class. Scored by measuring the ratio between the number of occurrences in a class  and the number of occurrences in all classes. Similar to Hashtags above, but with less noise.
+\item[Generic Latent Dirichlet Analysis (GLDA)] 100 course grained topics built from corpus of 4 million users. The model is then applied to each test user in order to obtain their topic distribution, which are the features used for classification.
+\item[Domain Specific Latent Dirichlet Analysis (DLDA)] Similar to the above, but model is built on users in training set. This produces more fine grained topics that are more class discriminative. 
+\item[Sentiment Words] Authors created a small collection of terms $t$ that divide opinions between Republicans and Democrats, and used the tool Opinion Finder 1.5 to find cases where a word carrying sentiment was used with respect to a term in $t$. This was used across all the users tweets, and their scores tallied, to produce a score which indicates your most likely class. 
+\end{description}
+
+The authors created a decision tree for each of the features above, and created an All function which is a GBDT, an ensemble of the above features. Prototypical Words have an accuracy of 73\%, Prototypical Hashtags 70\%, GLDA 67\%, DLDA 76\%, Sentiment Words 70\% and All with 77\%. 
+
+The above paper describes a range of linguistic methods, all of which are reasonable individually, but combine to become a fairly good classifier. When you introduce social network features - discussed in section \ref{sec:socnet} - the model performs strongly with an accuracy of 89\%. 
+
+\section{Social network: ``Who you tweet"}
+\label{sec:socnet}
+
+
+Introduce why networks work, i.e. homophilic properties
+
+Conover et al. (2011) \cite{politicalpolarisation} investigates the structure of retweet and user-to-user mention networks. The authors built a corpus of 250,000 tweets over the six weeks leading up to the 2010 U.S congressional midterms. With users given a class label `Republican' or `Democrat'. The authors used a combination of network clustering algorithms, statistical analysis of political tweet content and manually-annotated data. 
+
+Using these tools, the authors found that retweet networks are highly polarised, taking the form of two large clusters of users who distribute content to others in their cluster, with very little overlap between the two clusters. Conversely, it was found that no such structure existed in the user-to-user mention networks, and instead was formed as one large politically heterogenous cluster, where ideologically opposed users interact at a much high rate than in the retweet network. 
+
+The partisan nature of the discourse in retweet networks makes it ideal for the use of classification, hence many of the studies in this area have focused on the use of retweet networks for the purpose of classification.
+
+
+In addition to their use of linguistic features, Conover et al. (2010) \cite{Conover2010predicting} make use of the social network to classify users. They argue that as many social networks exhibit homophilic properties as described above, they can be used to infer properties about users who tend to associate with one another. The authors form a retweet network composed of the 1,000 most connected users, in other words the 1,000 node subgraph, such that the sum total of the node's connections to the other nodes of the 1,000 node subgraph is maximised.
+
+To classify users the authors used a greedy label propagation method. Each of the 1,000 nodes was given a class 1 or class 2  label using Newman's eigenvector modularity maximisation technique. The algorithm then begins iteratively assigning each node to the class shared by the majority of it's neighbours, and randomly assigning when a tie occurs. This was done until the algorithm converged on a solution. 
+
+The authors found a strong associated between cluster membership and political alignment, and suggested a simple classifier of `Left' if in class 1 or `Right' if in class 2. The method had an accuracy of 95\%, higher than using semantic information. The authors also attempted to combine the two methods by combining cluster assignments and 19 hashtag features selected using Hall's feature selection algorithm and an SVM, but found it performed no better than network clustering alone. 
+
+Whilst the paper provides a solid approach to tackling the problem of detecting political alignment, there is a concern over a biased selection of users for training and testing. By selecting the 1,000 most highly connected users, it is likely that the results are biased, because as Tumasjan et al. \cite{predelections} note, a small number of users dominate the communication in Twitter, and it is very likely that these highly connected users are part of that small group as retweets represent connections, which are observed through communication. Therefore the users who are used for training/evaluation, have an unusually high amount of linguistic content, and connections when compared to most other Twitter users. This leads to the possibility that the results are overly optimistic, if the aim is to use this as a means of classification for general twitter users. 
+
+Pennacchiotti and Popescu \cite{yahoopaper} make use of gradient boosted decision trees (GBDT), combining a collection of weak leaners to form a strong learner. The authors make use of linguistic features (discussed in section \ref{sec:lingcont}) and the following network features:
+
+\begin{description}
+\item[Follower Network] Collection of the most exemplar users per class. Scored by measuring the ratio between the number of occurrences in a class and the number of occurrences in all classes. Then for each exemplar user in the collection, a boolean feature is set to `1' if a user follows them, and `0' otherwise.
+
+\item[Mention Network] 
+\item[Retweet Network]
+\end{description}
 
 \chapter{Data and Methodolgy}
 \section{Scotland Independence Referendum Background}

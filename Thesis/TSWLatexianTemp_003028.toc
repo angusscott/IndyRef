@@ -1,0 +1,30 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Project Outline}{2}{chapter.2}
+\contentsline {chapter}{\numberline {3}Related Work}{3}{chapter.3}
+\contentsline {section}{\numberline {3.1}Motivation}{3}{section.3.1}
+\contentsline {section}{\numberline {3.2}The Twitter Platform}{4}{section.3.2}
+\contentsline {section}{\numberline {3.3}Profile Features and Tweeting Behaviour: ``Who you are and how you tweet"}{4}{section.3.3}
+\contentsline {section}{\numberline {3.4}Linguistic content: ``What you tweet"}{6}{section.3.4}
+\contentsline {section}{\numberline {3.5}Social network: ``Who you tweet"}{8}{section.3.5}
+\contentsline {section}{\numberline {3.6}Conclusion}{10}{section.3.6}
+\contentsline {chapter}{\numberline {4}Scottish Indepdendence Referendum Corpus (SIRC)}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}Scotland Independence Referendum Background}{11}{section.4.2}
+\contentsline {section}{\numberline {4.3}Existing Corpora}{12}{section.4.3}
+\contentsline {section}{\numberline {4.4}Corpus Construction}{12}{section.4.4}
+\contentsline {section}{\numberline {4.5}Corpus Annotation and Evaluation}{14}{section.4.5}
+\contentsline {section}{\numberline {4.6}Corpus Statistics}{14}{section.4.6}
+\contentsline {section}{\numberline {4.7}Dataset}{14}{section.4.7}
+\contentsline {chapter}{\numberline {5}Methodology}{16}{chapter.5}
+\contentsline {section}{\numberline {5.1}Dataset}{16}{section.5.1}
+\contentsline {section}{\numberline {5.2}General approach to user profiling}{16}{section.5.2}
+\contentsline {section}{\numberline {5.3}Models}{16}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Naive Bayes}{16}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Topic Modelling}{16}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}SVM}{16}{subsection.5.3.3}
+\contentsline {subsubsection}{\numberline {5.3.3.1}One class SVMs}{16}{subsubsection.5.3.3.1}
+\contentsline {subsubsection}{\numberline {5.3.3.2}Alternative SVMs, standard?}{16}{subsubsection.5.3.3.2}
+\contentsline {subsection}{\numberline {5.3.4}Gradient Boosted Decision Trees}{16}{subsection.5.3.4}
+\contentsline {chapter}{\numberline {6}Evaluation}{17}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusions and Further Work}{18}{chapter.7}
+\contentsline {chapter}{Bibliography}{19}{chapter*.11}

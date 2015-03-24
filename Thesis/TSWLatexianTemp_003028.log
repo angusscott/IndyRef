@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.12.25)  23 MAR 2015 16:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.12.25)  24 MAR 2015 23:49
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/angusscott/University/4thyear/4th Year Project/Thesis/TSWLatexianTemp_skeleton.tex"
-(/Users/angusscott/University/4thyear/4th Year Project/Thesis/TSWLatexianTemp_skeleton.tex
+**"/Users/angusscott/University/4thyear/4th Year Project/Thesis/TSWLatexianTemp_003028.tex"
+(/Users/angusscott/University/4thyear/4th Year Project/Thesis/TSWLatexianTemp_003028.tex
 LaTeX2e <2011/06/27>
 Babel <3.9f> and hyphenation patterns for 78 languages loaded.
 (/Users/angusscott/Library/texmf/tex/latex/infthesis.cls
@@ -126,6 +126,103 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \c@ContinuedFloat=\count92
 )) (/usr/local/texlive/2013/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2001/04/09 non-zero parskip adjustments
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen118
+\Hy@linkcounter=\count93
+\Hy@pagecounter=\count94
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count95
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count96
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen119
+\Fld@menulength=\count97
+\Field@Width=\dimen120
+\Fld@charsize=\dimen121
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count98
+\c@Item=\count99
+\c@Hfootnote=\count100
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count101
+\c@bookmark@seq@number=\count102
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+)
+\Hy@SectionHShift=\skip43
 ) (/usr/local/texlive/2013/texmf-dist/tex/latex/todonotes/todonotes.sty
 Package: todonotes 2012/07/25 .dtx Todonotes source and documentation.
 Package: todonotes 2012/07/25
@@ -134,7 +231,7 @@ Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
  (/usr/local/texlive/2013/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 \XKV@toks=\toks16
 \XKV@tempa@toks=\toks17
-\XKV@depth=\count93
+\XKV@depth=\count103
 File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
 )) (/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
@@ -163,8 +260,8 @@ Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
 Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
  (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
-\Gin@req@height=\dimen118
-\Gin@req@width=\dimen119
+\Gin@req@height=\dimen122
+\Gin@req@width=\dimen123
 ) (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
  (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
@@ -173,20 +270,20 @@ Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
  (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks21
 ))
-\pgf@x=\dimen120
-\pgf@y=\dimen121
-\pgf@xa=\dimen122
-\pgf@ya=\dimen123
-\pgf@xb=\dimen124
-\pgf@yb=\dimen125
-\pgf@xc=\dimen126
-\pgf@yc=\dimen127
+\pgf@x=\dimen124
+\pgf@y=\dimen125
+\pgf@xa=\dimen126
+\pgf@ya=\dimen127
+\pgf@xb=\dimen128
+\pgf@yb=\dimen129
+\pgf@xc=\dimen130
+\pgf@yc=\dimen131
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count94
-\c@pgf@countb=\count95
-\c@pgf@countc=\count96
-\c@pgf@countd=\count97
+\c@pgf@counta=\count104
+\c@pgf@countb=\count105
+\c@pgf@countc=\count106
+\c@pgf@countd=\count107
  (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 )
@@ -197,59 +294,59 @@ File: pgfsys-pdftex.def 2009/05/22  (rcs-revision 1.26)
 File: pgfsys-common-pdf.def 2008/05/19  (rcs-revision 1.10)
 ))) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
-\pgfsyssoftpath@smallbuffer@items=\count98
-\pgfsyssoftpath@bigbuffer@items=\count99
+\pgfsyssoftpath@smallbuffer@items=\count108
+\pgfsyssoftpath@bigbuffer@items=\count109
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 )) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
  (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen128
-\pgfmath@count=\count100
+\pgfmath@dimen=\dimen132
+\pgfmath@count=\count110
 \pgfmath@box=\box27
 \pgfmath@toks=\toks22
 \pgfmath@stack@operand=\toks23
 \pgfmath@stack@operation=\toks24
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex))) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count101
+\c@pgfmathroundto@lastzeros=\count111
 )) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
-\pgf@picminx=\dimen129
-\pgf@picmaxx=\dimen130
-\pgf@picminy=\dimen131
-\pgf@picmaxy=\dimen132
-\pgf@pathminx=\dimen133
-\pgf@pathmaxx=\dimen134
-\pgf@pathminy=\dimen135
-\pgf@pathmaxy=\dimen136
-\pgf@xx=\dimen137
-\pgf@xy=\dimen138
-\pgf@yx=\dimen139
-\pgf@yy=\dimen140
-\pgf@zx=\dimen141
-\pgf@zy=\dimen142
+\pgf@picminx=\dimen133
+\pgf@picmaxx=\dimen134
+\pgf@picminy=\dimen135
+\pgf@picmaxy=\dimen136
+\pgf@pathminx=\dimen137
+\pgf@pathmaxx=\dimen138
+\pgf@pathminy=\dimen139
+\pgf@pathmaxy=\dimen140
+\pgf@xx=\dimen141
+\pgf@xy=\dimen142
+\pgf@yx=\dimen143
+\pgf@yy=\dimen144
+\pgf@zx=\dimen145
+\pgf@zy=\dimen146
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
-\pgf@path@lastx=\dimen143
-\pgf@path@lasty=\dimen144
+\pgf@path@lastx=\dimen147
+\pgf@path@lasty=\dimen148
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
-\pgf@shorten@end@additional=\dimen145
-\pgf@shorten@start@additional=\dimen146
+\pgf@shorten@end@additional=\dimen149
+\pgf@shorten@start@additional=\dimen150
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
 \pgfpic=\box28
 \pgf@hbox=\box29
 \pgf@layerbox@main=\box30
-\pgf@picture@serial@count=\count102
+\pgf@picture@serial@count=\count112
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
-\pgflinewidth=\dimen147
+\pgflinewidth=\dimen151
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
-\pgf@pt@x=\dimen148
-\pgf@pt@y=\dimen149
-\pgf@pt@temp=\dimen150
+\pgf@pt@x=\dimen152
+\pgf@pt@y=\dimen153
+\pgf@pt@temp=\dimen154
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -260,8 +357,8 @@ File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
 File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
-\pgf@max=\dimen151
-\pgf@sys@shading@range@num=\count103
+\pgf@max=\dimen155
+\pgf@sys@shading@range@num=\count113
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
  (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
@@ -280,84 +377,85 @@ File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
 File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 ) (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen152
-\pgf@nodesepend=\dimen153
+\pgf@nodesepstart=\dimen156
+\pgf@nodesepend=\dimen157
 ) (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 )) (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (/usr/local/texlive/2013/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen154
-\pgffor@skip=\dimen155
+\pgffor@iter=\dimen158
+\pgffor@skip=\dimen159
 \pgffor@stack=\toks25
 \pgffor@toks=\toks26
 )) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
  (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
-\pgf@plot@mark@count=\count104
-\pgfplotmarksize=\dimen156
+\pgf@plot@mark@count=\count114
+\pgfplotmarksize=\dimen160
 )
-\tikz@lastx=\dimen157
-\tikz@lasty=\dimen158
-\tikz@lastxsaved=\dimen159
-\tikz@lastysaved=\dimen160
-\tikzleveldistance=\dimen161
-\tikzsiblingdistance=\dimen162
+\tikz@lastx=\dimen161
+\tikz@lasty=\dimen162
+\tikz@lastxsaved=\dimen163
+\tikz@lastysaved=\dimen164
+\tikzleveldistance=\dimen165
+\tikzsiblingdistance=\dimen166
 \tikz@figbox=\box33
 \tikz@tempbox=\box34
-\tikztreelevel=\count105
-\tikznumberofchildren=\count106
-\tikznumberofcurrentchild=\count107
-\tikz@fig@count=\count108
+\tikztreelevel=\count115
+\tikznumberofchildren=\count116
+\tikznumberofcurrentchild=\count117
+\tikz@fig@count=\count118
  (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
-\pgfmatrixcurrentrow=\count109
-\pgfmatrixcurrentcolumn=\count110
-\pgf@matrix@numberofcolumns=\count111
+\pgfmatrixcurrentrow=\count119
+\pgfmatrixcurrentcolumn=\count120
+\pgf@matrix@numberofcolumns=\count121
 )
-\tikz@expandcount=\count112
+\tikz@expandcount=\count122
  (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
 ))) (/usr/local/texlive/2013/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2008/10/06 v2.10 (rcs-revision 1.7)
 ) (/usr/local/texlive/2013/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count113
-\calc@Bcount=\count114
-\calc@Adimen=\dimen163
-\calc@Bdimen=\dimen164
-\calc@Askip=\skip43
-\calc@Bskip=\skip44
+\calc@Acount=\count123
+\calc@Bcount=\count124
+\calc@Adimen=\dimen167
+\calc@Bdimen=\dimen168
+\calc@Askip=\skip44
+\calc@Bskip=\skip45
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count115
-\calc@Cskip=\skip45
+\calc@Ccount=\count125
+\calc@Cskip=\skip46
 )
-\c@@todonotes@numberoftodonotes=\count116
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/cite/cite.sty
+\c@@todonotes@numberoftodonotes=\count126
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 373.
 Package: cite 2010/09/10  v 5.3
-) (./TSWLatexianTemp_skeleton.aux)
-\openout1 = `TSWLatexianTemp_skeleton.aux'.
+) (./TSWLatexianTemp_003028.aux)
+\openout1 = `TSWLatexianTemp_003028.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 11.
-LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/pzccm/m/n on input line 13.
+LaTeX Font Info:    Try loading font information for OMS+pzccm on input line 13.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omspzccm.fd
 File: omspzccm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/pzccm.
 )
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -395,44 +493,22 @@ LaTeX Font Info:    ... okay on input line 11.
 
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count117
-\scratchdimen=\dimen165
+\scratchcounter=\count127
+\scratchdimen=\dimen169
 \scratchbox=\box35
-\nofMPsegments=\count118
-\nofMParguments=\count119
+\nofMPsegments=\count128
+\nofMParguments=\count129
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count120
-\MPscratchDim=\dimen166
-\MPnumerator=\count121
-\makeMPintoPDFobject=\count122
+\MPscratchCnt=\count130
+\MPscratchDim=\dimen170
+\MPnumerator=\count131
+\makeMPintoPDFobject=\count132
 \everyMPtoPDFconversion=\toks28
-) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
- (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
 ) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
  (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
- (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-)) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
- (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
- (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+)
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
@@ -440,586 +516,597 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box36
+Package hyperref Info: Link coloring OFF on input line 13.
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+ (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count133
+)
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
+ (./TSWLatexianTemp_003028.out) (./TSWLatexianTemp_003028.out)
+\@outlinefile=\write4
+\openout4 = `TSWLatexianTemp_003028.out'.
+
  ABD: EveryShipout initializing macros
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 57.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <20.74> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 54.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 57.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 18.66588pt on input line 54.
+(Font)              scaled to size 18.66588pt on input line 57.
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
-(Font)              scaled to size 10.79993pt on input line 54.
+(Font)              scaled to size 10.79993pt on input line 57.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 54.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 57.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 54.
+(Font)              scaled to size 10.79993pt on input line 57.
  [1
 
 {/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 56.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 56.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 15.55188pt on input line 56.
+(Font)              scaled to size 15.55188pt on input line 59.
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 58.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 61.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
-(Font)              scaled to size 10.79993pt on input line 58.
+(Font)              scaled to size 10.79993pt on input line 61.
  [1]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 61.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 58.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 61.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 58.
- (./TSWLatexianTemp_skeleton.toc
+(Font)              scaled to size 22.39185pt on input line 61.
+ (./TSWLatexianTemp_003028.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 3.
+LaTeX Font Info:    Try loading font information for OT1+ptmcm on input line 4.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptmcm.fd
 File: ot1ptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 3.
+LaTeX Font Info:    Try loading font information for OML+ptmcm on input line 4.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omlptmcm.fd
 File: omlptmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ptmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+psycm on input line 3.
+LaTeX Font Info:    Try loading font information for OMX+psycm on input line 4.
  (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omxpsycm.fd
 File: omxpsycm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/psycm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 4.
 )
-\tf@toc=\write4
-\openout4 = `TSWLatexianTemp_skeleton.toc'.
+\tf@toc=\write5
+\openout5 = `TSWLatexianTemp_003028.toc'.
 
  [2
 
 ]
 Chapter 1.
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 67.
 
-Overfull \hbox (19.96358pt too wide) in paragraph at lines 64--64
+Overfull \hbox (19.96358pt too wide) in paragraph at lines 67--67
 [][][][]\OT1/ptm/m/n/12 introduce 
  []
 
 
-Overfull \hbox (10.39946pt too wide) in paragraph at lines 64--64
+Overfull \hbox (10.39946pt too wide) in paragraph at lines 67--67
 \OT1/ptm/m/n/12 tributes 
  []
 
 
-Overfull \hbox (19.96358pt too wide) in paragraph at lines 64--64
+Overfull \hbox (19.96358pt too wide) in paragraph at lines 67--67
 [][][][]\OT1/ptm/m/n/12 introduce 
  []
 
 
-Overfull \hbox (10.39946pt too wide) in paragraph at lines 64--64
+Overfull \hbox (10.39946pt too wide) in paragraph at lines 67--67
 \OT1/ptm/m/n/12 tributes 
  []
 
 
-Overfull \hbox (19.96358pt too wide) in paragraph at lines 64--64
+Overfull \hbox (19.96358pt too wide) in paragraph at lines 67--67
 [][][][]\OT1/ptm/m/n/12 introduce 
  []
 
 
-Overfull \hbox (10.39946pt too wide) in paragraph at lines 64--64
+Overfull \hbox (10.39946pt too wide) in paragraph at lines 67--67
 \OT1/ptm/m/n/12 tributes 
  []
 
 
-Overfull \hbox (19.96358pt too wide) in paragraph at lines 64--64
+Overfull \hbox (19.96358pt too wide) in paragraph at lines 67--67
 [][][][]\OT1/ptm/m/n/12 introduce 
  []
 
 
-Overfull \hbox (10.39946pt too wide) in paragraph at lines 64--64
+Overfull \hbox (10.39946pt too wide) in paragraph at lines 67--67
 \OT1/ptm/m/n/12 tributes 
  []
 
 
-Overfull \hbox (10.6277pt too wide) in paragraph at lines 66--66
+Overfull \hbox (10.6277pt too wide) in paragraph at lines 69--69
 [][][][]\OT1/ptm/m/n/12 Include 
  []
 
 
-Overfull \hbox (3.9678pt too wide) in paragraph at lines 66--66
+Overfull \hbox (3.9678pt too wide) in paragraph at lines 69--69
 \OT1/ptm/m/n/12 dyRef 
  []
 
 
-Overfull \hbox (2.38371pt too wide) in paragraph at lines 66--66
+Overfull \hbox (2.38371pt too wide) in paragraph at lines 69--69
 \OT1/ptm/m/n/12 amer- 
  []
 
 
-Overfull \hbox (10.6277pt too wide) in paragraph at lines 66--66
+Overfull \hbox (10.6277pt too wide) in paragraph at lines 69--69
 [][][][]\OT1/ptm/m/n/12 Include 
  []
 
 
-Overfull \hbox (3.9678pt too wide) in paragraph at lines 66--66
+Overfull \hbox (3.9678pt too wide) in paragraph at lines 69--69
 \OT1/ptm/m/n/12 dyRef 
  []
 
 
-Overfull \hbox (2.38371pt too wide) in paragraph at lines 66--66
+Overfull \hbox (2.38371pt too wide) in paragraph at lines 69--69
 \OT1/ptm/m/n/12 amer- 
  []
 
 
-Overfull \hbox (10.6277pt too wide) in paragraph at lines 66--66
+Overfull \hbox (10.6277pt too wide) in paragraph at lines 69--69
 [][][][]\OT1/ptm/m/n/12 Include 
  []
 
 
-Overfull \hbox (3.9678pt too wide) in paragraph at lines 66--66
+Overfull \hbox (3.9678pt too wide) in paragraph at lines 69--69
 \OT1/ptm/m/n/12 dyRef 
  []
 
 
-Overfull \hbox (2.38371pt too wide) in paragraph at lines 66--66
+Overfull \hbox (2.38371pt too wide) in paragraph at lines 69--69
 \OT1/ptm/m/n/12 amer- 
  []
 
 
-Overfull \hbox (10.6277pt too wide) in paragraph at lines 66--66
+Overfull \hbox (10.6277pt too wide) in paragraph at lines 69--69
 [][][][]\OT1/ptm/m/n/12 Include 
  []
 
 
-Overfull \hbox (3.9678pt too wide) in paragraph at lines 66--66
+Overfull \hbox (3.9678pt too wide) in paragraph at lines 69--69
 \OT1/ptm/m/n/12 dyRef 
  []
 
 
-Overfull \hbox (2.38371pt too wide) in paragraph at lines 66--66
+Overfull \hbox (2.38371pt too wide) in paragraph at lines 69--69
 \OT1/ptm/m/n/12 amer- 
  []
 
 
-LaTeX Warning: Marginpar on page 3 moved.
+LaTeX Warning: Marginpar on page 1 moved.
 
-[3
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.71 \chapter
+             {Project Outline} [1
 
 ]
 Chapter 2.
-
-Overfull \hbox (9.96762pt too wide) in paragraph at lines 73--73
-[][][][]\OT1/ptm/m/n/12 include 
- []
-
-
-Overfull \hbox (9.29573pt too wide) in paragraph at lines 73--73
-\OT1/ptm/m/n/12 ofrmed 
- []
-
-
-Overfull \hbox (9.96762pt too wide) in paragraph at lines 73--73
-[][][][]\OT1/ptm/m/n/12 include 
- []
-
-
-Overfull \hbox (9.29573pt too wide) in paragraph at lines 73--73
-\OT1/ptm/m/n/12 ofrmed 
- []
-
-
-Overfull \hbox (9.96762pt too wide) in paragraph at lines 73--73
-[][][][]\OT1/ptm/m/n/12 include 
- []
-
-
-Overfull \hbox (9.29573pt too wide) in paragraph at lines 73--73
-\OT1/ptm/m/n/12 ofrmed 
- []
-
-
-Overfull \hbox (9.96762pt too wide) in paragraph at lines 73--73
-[][][][]\OT1/ptm/m/n/12 include 
- []
-
-
-Overfull \hbox (9.29573pt too wide) in paragraph at lines 73--73
-\OT1/ptm/m/n/12 ofrmed 
- []
-
-
-LaTeX Warning: Citation `politicalpolar' on page 4 undefined on input line 79.
-
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/pzccm/m/n' tried instead on input line 93.
-[4
-
-] [5]
-Chapter 3.
-[6
+[2
 
 ]
-Overfull \hbox (7.54587pt too wide) in paragraph at lines 141--142
+Chapter 3.
+[3
+
+]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 94.
+
+Overfull \hbox (2.66672pt too wide) in paragraph at lines 107--107
+[]\OT1/phv/b/n/17.28 Profile Fea-tures and Tweet-ing Be-haviour: ``Who you
+ []
+
+[4]
+Missing character: There is no ï in font ptmr7t!
+Missing character: There is no ¿ in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+ [5] [6]
+Overfull \hbox (7.54587pt too wide) in paragraph at lines 165--166
 []\OT1/ptm/m/n/12 Collection of the 200 most class in-dica-tive words per class. Scored
  []
 
-[7]
-Overfull \hbox (2.69774pt too wide) in paragraph at lines 143--144
+
+Overfull \hbox (2.69774pt too wide) in paragraph at lines 167--168
 []\OT1/ptm/m/n/12 100 course grained top-ics built from cor-
  []
 
-[8] [9]
+[7] [8] [9] [10]
 Chapter 4.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 195.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 195.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 195.
-[10
+[11
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 219--219
+] [12]
+Overfull \hbox (2.94325pt too wide) in paragraph at lines 241--242
+\OT1/ptm/m/n/12 set of tem-po-rally non-specific hash-tags. Whilst hash-tags such as \OT1/pcr/m/n/12 #PatronisingBTlady
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 248.
+
+<pollingresults.png, id=287, 1204.5pt x 803.0pt>
+File: pollingresults.png Graphic file (type png)
+ <use pollingresults.png>
+Package pdftex.def Info: pollingresults.png used on input line 250.
+(pdftex.def)             Requested size: 412.56497pt x 275.0381pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
 []\OT1/pcr/m/n/12 #indyref, #scotland,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--219
+Underfull \hbox (badness 10000) in paragraph at lines 259--259
 \OT1/pcr/m/n/12 #scotdecides, #scotlanddecides,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--220
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
 []\OT1/pcr/m/n/12 #voteyes, #yesscotland,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
 []\OT1/pcr/m/n/12 #voteno, #nothanks,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 261--261
 \OT1/pcr/m/n/12 #bettertogether,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
 []\OT1/pcr/m/n/12 #snp, #labour, #conservative,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
 \OT1/pcr/m/n/12 #tory, #libdem, #salmond,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
 \OT1/pcr/m/n/12 #alexsalmond,#davidcameron,
  []
 
-
-Overfull \hbox (10.6277pt too wide) in paragraph at lines 229--229
+[13] [14 <./pollingresults.png>]
+Overfull \hbox (10.6277pt too wide) in paragraph at lines 286--286
 [][][][]\OT1/ptm/m/n/12 Include 
  []
 
 
-Overfull \hbox (1.9639pt too wide) in paragraph at lines 229--229
+Overfull \hbox (1.9639pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 graph 
  []
 
 
-Overfull \hbox (3.6678pt too wide) in paragraph at lines 229--229
+Overfull \hbox (3.6678pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 show- 
  []
 
 
-Overfull \hbox (13.30353pt too wide) in paragraph at lines 229--229
+Overfull \hbox (13.30353pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 strength 
  []
 
 
-Overfull \hbox (0.63177pt too wide) in paragraph at lines 229--229
+Overfull \hbox (0.63177pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 hash- 
  []
 
 
-Overfull \hbox (1.12393pt too wide) in paragraph at lines 229--229
+Overfull \hbox (1.12393pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 many 
  []
 
 
-Overfull \hbox (5.29945pt too wide) in paragraph at lines 229--229
+Overfull \hbox (5.29945pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 tweets 
  []
 
 
-Overfull \hbox (10.6277pt too wide) in paragraph at lines 229--229
+Overfull \hbox (10.6277pt too wide) in paragraph at lines 286--286
 [][][][]\OT1/ptm/m/n/12 Include 
  []
 
 
-Overfull \hbox (1.9639pt too wide) in paragraph at lines 229--229
+Overfull \hbox (1.9639pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 graph 
  []
 
 
-Overfull \hbox (3.6678pt too wide) in paragraph at lines 229--229
+Overfull \hbox (3.6678pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 show- 
  []
 
 
-Overfull \hbox (13.30353pt too wide) in paragraph at lines 229--229
+Overfull \hbox (13.30353pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 strength 
  []
 
 
-Overfull \hbox (0.63177pt too wide) in paragraph at lines 229--229
+Overfull \hbox (0.63177pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 hash- 
  []
 
 
-Overfull \hbox (1.12393pt too wide) in paragraph at lines 229--229
+Overfull \hbox (1.12393pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 many 
  []
 
 
-Overfull \hbox (5.29945pt too wide) in paragraph at lines 229--229
+Overfull \hbox (5.29945pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 tweets 
  []
 
 
-Overfull \hbox (10.6277pt too wide) in paragraph at lines 229--229
+Overfull \hbox (10.6277pt too wide) in paragraph at lines 286--286
 [][][][]\OT1/ptm/m/n/12 Include 
  []
 
 
-Overfull \hbox (1.9639pt too wide) in paragraph at lines 229--229
+Overfull \hbox (1.9639pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 graph 
  []
 
 
-Overfull \hbox (3.6678pt too wide) in paragraph at lines 229--229
+Overfull \hbox (3.6678pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 show- 
  []
 
 
-Overfull \hbox (13.30353pt too wide) in paragraph at lines 229--229
+Overfull \hbox (13.30353pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 strength 
  []
 
 
-Overfull \hbox (0.63177pt too wide) in paragraph at lines 229--229
+Overfull \hbox (0.63177pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 hash- 
  []
 
 
-Overfull \hbox (1.12393pt too wide) in paragraph at lines 229--229
+Overfull \hbox (1.12393pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 many 
  []
 
 
-Overfull \hbox (5.29945pt too wide) in paragraph at lines 229--229
+Overfull \hbox (5.29945pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 tweets 
  []
 
 
-Overfull \hbox (10.6277pt too wide) in paragraph at lines 229--229
+Overfull \hbox (10.6277pt too wide) in paragraph at lines 286--286
 [][][][]\OT1/ptm/m/n/12 Include 
  []
 
 
-Overfull \hbox (1.9639pt too wide) in paragraph at lines 229--229
+Overfull \hbox (1.9639pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 graph 
  []
 
 
-Overfull \hbox (3.6678pt too wide) in paragraph at lines 229--229
+Overfull \hbox (3.6678pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 show- 
  []
 
 
-Overfull \hbox (13.30353pt too wide) in paragraph at lines 229--229
+Overfull \hbox (13.30353pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 strength 
  []
 
 
-Overfull \hbox (0.63177pt too wide) in paragraph at lines 229--229
+Overfull \hbox (0.63177pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 hash- 
  []
 
 
-Overfull \hbox (1.12393pt too wide) in paragraph at lines 229--229
+Overfull \hbox (1.12393pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 many 
  []
 
 
-Overfull \hbox (5.29945pt too wide) in paragraph at lines 229--229
+Overfull \hbox (5.29945pt too wide) in paragraph at lines 286--286
 \OT1/ptm/m/n/12 tweets 
  []
 
-[11]
-Overfull \hbox (3.96745pt too wide) in paragraph at lines 235--235
+[15]
+Chapter 5.
+
+Overfull \hbox (3.96745pt too wide) in paragraph at lines 300--300
 [][][][]\OT1/ptm/m/n/12 Detail 
  []
 
 
-Overfull \hbox (0.63177pt too wide) in paragraph at lines 235--235
+Overfull \hbox (0.63177pt too wide) in paragraph at lines 300--300
 \OT1/ptm/m/n/12 sured 
  []
 
 
-Overfull \hbox (1.30382pt too wide) in paragraph at lines 235--235
+Overfull \hbox (1.30382pt too wide) in paragraph at lines 300--300
 \OT1/ptm/m/n/12 could 
  []
 
 
-Overfull \hbox (3.96745pt too wide) in paragraph at lines 235--235
+Overfull \hbox (3.96745pt too wide) in paragraph at lines 300--300
 [][][][]\OT1/ptm/m/n/12 Detail 
  []
 
 
-Overfull \hbox (0.63177pt too wide) in paragraph at lines 235--235
+Overfull \hbox (0.63177pt too wide) in paragraph at lines 300--300
 \OT1/ptm/m/n/12 sured 
  []
 
 
-Overfull \hbox (1.30382pt too wide) in paragraph at lines 235--235
+Overfull \hbox (1.30382pt too wide) in paragraph at lines 300--300
 \OT1/ptm/m/n/12 could 
  []
 
 
-Overfull \hbox (3.96745pt too wide) in paragraph at lines 235--235
+Overfull \hbox (3.96745pt too wide) in paragraph at lines 300--300
 [][][][]\OT1/ptm/m/n/12 Detail 
  []
 
 
-Overfull \hbox (0.63177pt too wide) in paragraph at lines 235--235
+Overfull \hbox (0.63177pt too wide) in paragraph at lines 300--300
 \OT1/ptm/m/n/12 sured 
  []
 
 
-Overfull \hbox (1.30382pt too wide) in paragraph at lines 235--235
+Overfull \hbox (1.30382pt too wide) in paragraph at lines 300--300
 \OT1/ptm/m/n/12 could 
  []
 
 
-Overfull \hbox (3.96745pt too wide) in paragraph at lines 235--235
+Overfull \hbox (3.96745pt too wide) in paragraph at lines 300--300
 [][][][]\OT1/ptm/m/n/12 Detail 
  []
 
 
-Overfull \hbox (0.63177pt too wide) in paragraph at lines 235--235
+Overfull \hbox (0.63177pt too wide) in paragraph at lines 300--300
 \OT1/ptm/m/n/12 sured 
  []
 
 
-Overfull \hbox (1.30382pt too wide) in paragraph at lines 235--235
+Overfull \hbox (1.30382pt too wide) in paragraph at lines 300--300
 \OT1/ptm/m/n/12 could 
  []
 
 
-Overfull \hbox (10.63957pt too wide) in paragraph at lines 237--237
+Overfull \hbox (10.63957pt too wide) in paragraph at lines 302--302
 [][][][]\OT1/ptm/m/n/12 Models 
  []
 
 
-Overfull \hbox (2.63565pt too wide) in paragraph at lines 237--237
+Overfull \hbox (2.63565pt too wide) in paragraph at lines 302--302
 \OT1/ptm/m/n/12 ment- 
  []
 
 
-Overfull \hbox (6.94405pt too wide) in paragraph at lines 237--237
+Overfull \hbox (6.94405pt too wide) in paragraph at lines 302--302
 \OT1/ptm/m/n/12 moved 
  []
 
 
-Overfull \hbox (10.63957pt too wide) in paragraph at lines 237--237
+Overfull \hbox (10.63957pt too wide) in paragraph at lines 302--302
 [][][][]\OT1/ptm/m/n/12 Models 
  []
 
 
-Overfull \hbox (2.63565pt too wide) in paragraph at lines 237--237
+Overfull \hbox (2.63565pt too wide) in paragraph at lines 302--302
 \OT1/ptm/m/n/12 ment- 
  []
 
 
-Overfull \hbox (6.94405pt too wide) in paragraph at lines 237--237
+Overfull \hbox (6.94405pt too wide) in paragraph at lines 302--302
 \OT1/ptm/m/n/12 moved 
  []
 
 
-Overfull \hbox (10.63957pt too wide) in paragraph at lines 237--237
+Overfull \hbox (10.63957pt too wide) in paragraph at lines 302--302
 [][][][]\OT1/ptm/m/n/12 Models 
  []
 
 
-Overfull \hbox (2.63565pt too wide) in paragraph at lines 237--237
+Overfull \hbox (2.63565pt too wide) in paragraph at lines 302--302
 \OT1/ptm/m/n/12 ment- 
  []
 
 
-Overfull \hbox (6.94405pt too wide) in paragraph at lines 237--237
+Overfull \hbox (6.94405pt too wide) in paragraph at lines 302--302
 \OT1/ptm/m/n/12 moved 
  []
 
 
-Overfull \hbox (10.63957pt too wide) in paragraph at lines 237--237
+Overfull \hbox (10.63957pt too wide) in paragraph at lines 302--302
 [][][][]\OT1/ptm/m/n/12 Models 
  []
 
 
-Overfull \hbox (2.63565pt too wide) in paragraph at lines 237--237
+Overfull \hbox (2.63565pt too wide) in paragraph at lines 302--302
 \OT1/ptm/m/n/12 ment- 
  []
 
 
-Overfull \hbox (6.94405pt too wide) in paragraph at lines 237--237
+Overfull \hbox (6.94405pt too wide) in paragraph at lines 302--302
 \OT1/ptm/m/n/12 moved 
  []
 
 
-LaTeX Warning: Marginpar on page 12 moved.
+LaTeX Warning: Marginpar on page 16 moved.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 238.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 303.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 238.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 303.
 LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 238.
-[12]
-Chapter 5.
-[13
+(Font)              scaled to size 12.9599pt on input line 303.
+[16
 
 ]
 Chapter 6.
-(./TSWLatexianTemp_skeleton.bbl [14
+[17
 
-] [15
+]
+Chapter 7.
+(./TSWLatexianTemp_003028.bbl [18
+
+] [19
 
 ]
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no œ in font ptmr7t!
-) [16] (./TSWLatexianTemp_skeleton.aux)
-
-LaTeX Warning: There were undefined references.
-
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 319.
+ [20]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 319.
+ (./TSWLatexianTemp_003028.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 319.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 319.
+Package rerunfilecheck Info: File `TSWLatexianTemp_003028.out' has not changed.
+(rerunfilecheck)             Checksum: 423CED76081533572FE39A14EE8151D3;1833.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 319.
  ) 
 Here is how much of TeX's memory you used:
- 12638 strings out of 493315
- 237448 string characters out of 6137903
- 295043 words of memory out of 5000000
- 15805 multiletter control sequences out of 15000+600000
- 49567 words of font info for 92 fonts, out of 8000000 for 9000
+ 16211 strings out of 493315
+ 291628 string characters out of 6137903
+ 370202 words of memory out of 5000000
+ 19265 multiletter control sequences out of 15000+600000
+ 49307 words of font info for 93 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 63i,10n,76p,983b,665s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on TSWLatexianTemp_skeleton.pdf (17 pages, 121465 bytes).
+ 63i,10n,76p,984b,673s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on TSWLatexianTemp_003028.pdf (23 pages, 223328 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 387 PDF objects out of 1000 (max. 8388607)
+ 349 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 242 words of extra memory for PDF output out of 10000 (max. 10000000)
 
